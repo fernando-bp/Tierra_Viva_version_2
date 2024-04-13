@@ -3,9 +3,9 @@ TierraViva's repository
 Ingeniería del Software I
 
 # Colabs
-Brayan Fabian Borda Quemba /n
-Diego Alejandro Rubiano
-Edward Geovanny Sosa Amaya
+Brayan Fabian Borda Quemba -/-
+Diego Alejandro Rubiano -/-
+Edward Geovanny Sosa Amaya -/-
 Fernando Bohorquez Parra.
 
 # TOOLS
