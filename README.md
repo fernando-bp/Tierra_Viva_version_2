@@ -9,6 +9,7 @@ Edward Geovanny Sosa Amaya -/-
 Fernando Bohorquez Parra.
 
 # TOOLS
-FastAPI     -- Backend -/-
-FlutterFlow -- Frontend -/-
-            -- Database -/-
+FastAPI     
++ Backend - Python-> FastApi
++ Frontend - Kotlin -> android studio 
++ Database - sql server
