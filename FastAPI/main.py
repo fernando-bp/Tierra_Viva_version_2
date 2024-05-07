@@ -488,7 +488,7 @@ def get_users(db=Depends(get_db_connection)):
 
 # Endpoint para obtener usuario por ID
 
-# Obtener un usuario por ID
+# Get un usuario por ID
 @app.get("/users/{user_id}", response_model=User)
 def get_user(user_id: int, db=Depends(get_db_connection)):
     cursor = db.cursor()
