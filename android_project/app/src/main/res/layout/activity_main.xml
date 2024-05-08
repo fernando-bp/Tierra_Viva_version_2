@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    tools:context=".MainActivity">
+    
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle1" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="252dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/circle2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="187dp"
+        android:layout_height="180dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.169"
+        app:srcCompat="@drawable/logo_app"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/inicioSesion"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="Inicio de sesión"
+        android:textColor="#474747"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <ImageView
+        android:id="@+id/greenBoxEmail"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/passwordTextOut"
+        app:layout_constraintEnd_toStartOf="@+id/editTextEmailText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextOut"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_btn_text" />
+
+    <ImageView
+        android:id="@+id/emailLogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/greenBoxEmail"
+        app:layout_constraintEnd_toEndOf="@+id/greenBoxEmail"
+        app:layout_constraintStart_toStartOf="@+id/greenBoxEmail"
+        app:layout_constraintTop_toTopOf="@+id/greenBoxEmail"
+        app:srcCompat="@drawable/mail_logo" />
+
+    <TextView
+        android:id="@+id/emailTextOut"
+        android:layout_width="191dp"
+        android:layout_height="32dp"
+        android:text="Correo electrónico"
+        android:textColor="#474747"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmailText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inicioSesion"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/passwordTextOut"
+        android:layout_width="191dp"
+        android:layout_height="32dp"
+        android:text="Contraseña"
+        android:textColor="#474747"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inicioSesion"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/clickHerebutton"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextOut"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/ic_btn_text" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:srcCompat="@drawable/pass_logo" />
+
+
+    <Button
+        android:id="@+id/clickHerebutton"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_rounded_press"
+        android:text="       toque aquí       "
+        android:textColor="#D5F8D4"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_rounded_press"
+        android:text="Registrarse"
+        android:textColor="#D5F8D4"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <Button
+        android:id="@+id/enterbutton"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_rounded_press"
+        android:text="Ingresar"
+        android:textColor="#D5F8D4"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+    <TextView
+        android:id="@+id/forgotpassText"
+        android:layout_width="242dp"
+        android:layout_height="30dp"
+        android:text="¿Olvidó su contraseña?"
+        android:textColor="#474747"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/clickHerebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <TextView
+        android:id="@+id/dontyouhaveanaccountText"
+        android:layout_width="242dp"
+        android:layout_height="30dp"
+        android:text="¿No tiene cuenta aún?"
+        android:textColor="#474747"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/registerbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterbutton"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@drawable/text_font_box"
+        android:ems="10"
+        android:hint=" Ingrese su contraseña"
+        android:inputType="textPassword"
+        android:textColor="#474747"
+        android:textColorHint="#878787"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <EditText
+        android:id="@+id/editTextEmailText"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@drawable/text_font_box"
+        android:ems="10"
+        android:inputType="text"
+        android:hint=" Ingrese su correo"
+        android:textColor="#474747"
+        android:textColorHint="#878787"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <TextView
+        android:id="@+id/tierraVivaTitle"
+        android:layout_width="238dp"
+        android:layout_height="51dp"
+        android:foregroundTint="#1C9708"
+        android:text="TIERRA VIVA"
+        android:textColor="#1C9708"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

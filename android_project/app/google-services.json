@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14548977444",
+    "project_id": "tierravivatest",
+    "storage_bucket": "tierravivatest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14548977444:android:b551f21abe3c48ec85d5b1",
+        "android_client_info": {
+          "package_name": "com.example.tierravivamarketplace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6BqvxdHD1vl-t9w-MrMM_4Zx-4tcefkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
